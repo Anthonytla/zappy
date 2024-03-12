@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is Zappy, a automated game with four player and a server. The game starts once all the four players are connected.
 The IA follow these rules, it can:
 - Turn 90° to the left (left).
@@ -41,8 +40,3 @@ Default values:
 - Host: localhost
 - Port: 4242
 
-=======
-# Groupe de la_t 972951
-
-# zappy
->>>>>>> 10cafe64eacd592d8f5905c891c44a40d27007fb
