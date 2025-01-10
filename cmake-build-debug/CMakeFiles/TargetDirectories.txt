@@ -1,0 +1,4 @@
+/home/antho/Documents/Zappy/cmake-build-debug/CMakeFiles/Zappy.dir
+/home/antho/Documents/Zappy/cmake-build-debug/CMakeFiles/client.dir
+/home/antho/Documents/Zappy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/antho/Documents/Zappy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

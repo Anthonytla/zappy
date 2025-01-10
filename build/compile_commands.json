@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/server/main.cc.o -c /home/antho/Documents/Zappy/server/main.cc",
+  "file": "/home/antho/Documents/Zappy/server/main.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/server/server.cc.o -c /home/antho/Documents/Zappy/server/server.cc",
+  "file": "/home/antho/Documents/Zappy/server/server.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/game_controller.cc.o -c /home/antho/Documents/Zappy/game_controller.cc",
+  "file": "/home/antho/Documents/Zappy/game_controller.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/game_model.cc.o -c /home/antho/Documents/Zappy/game_model.cc",
+  "file": "/home/antho/Documents/Zappy/game_model.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/game_view.cc.o -c /home/antho/Documents/Zappy/game_view.cc",
+  "file": "/home/antho/Documents/Zappy/game_view.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/gem.cc.o -c /home/antho/Documents/Zappy/gem.cc",
+  "file": "/home/antho/Documents/Zappy/gem.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/map.cc.o -c /home/antho/Documents/Zappy/map.cc",
+  "file": "/home/antho/Documents/Zappy/map.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/Zappy.dir/player.cc.o -c /home/antho/Documents/Zappy/player.cc",
+  "file": "/home/antho/Documents/Zappy/player.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/client.dir/client/main.cc.o -c /home/antho/Documents/Zappy/client/main.cc",
+  "file": "/home/antho/Documents/Zappy/client/main.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/client.dir/client/client.cc.o -c /home/antho/Documents/Zappy/client/client.cc",
+  "file": "/home/antho/Documents/Zappy/client/client.cc"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/client.dir/DecisionTree.cpp.o -c /home/antho/Documents/Zappy/DecisionTree.cpp",
+  "file": "/home/antho/Documents/Zappy/DecisionTree.cpp"
+},
+{
+  "directory": "/home/antho/Documents/Zappy/build",
+  "command": "/usr/bin/c++  -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14 -o CMakeFiles/client.dir/Node.cpp.o -c /home/antho/Documents/Zappy/Node.cpp",
+  "file": "/home/antho/Documents/Zappy/Node.cpp"
+}
+]
