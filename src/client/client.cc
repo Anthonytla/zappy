@@ -1,4 +1,4 @@
-#include "client.hh"
+#include "../../includes/client.hh"
 
 #include <iostream>
 #include <bits/random.h>
@@ -13,7 +13,7 @@ void Client::run()
 {
     sf::TcpSocket socket;
     bool done = false;
-    sf::Socket::Status status = socket.connect("localhost", port);
+    sf::Socket::Status status = socket.connect("0.0.0.0", port);
     if (status != sf::Socket::Done)
     {
         std::cout << "Error connect" << std::endl;

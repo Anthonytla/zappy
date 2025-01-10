@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <SFML/Network.hpp>
-#include "../game_controller.hh"
+#include "game_controller.hh"
 
 class Server
 {

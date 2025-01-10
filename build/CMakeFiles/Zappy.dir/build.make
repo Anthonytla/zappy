@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antho/Documents/Zappy
+CMAKE_SOURCE_DIR = /home/antho/Documents/zappy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antho/Documents/Zappy/build
+CMAKE_BINARY_DIR = /home/antho/Documents/zappy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Zappy.dir/depend.make
@@ -69,143 +69,143 @@ include CMakeFiles/Zappy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Zappy.dir/flags.make
 
-CMakeFiles/Zappy.dir/server/main.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/server/main.cc.o: ../server/main.cc
-CMakeFiles/Zappy.dir/server/main.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zappy.dir/server/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/server/main.cc.o -MF CMakeFiles/Zappy.dir/server/main.cc.o.d -o CMakeFiles/Zappy.dir/server/main.cc.o -c /home/antho/Documents/Zappy/server/main.cc
+CMakeFiles/Zappy.dir/src/server/main.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/server/main.cc.o: ../src/server/main.cc
+CMakeFiles/Zappy.dir/src/server/main.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zappy.dir/src/server/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/server/main.cc.o -MF CMakeFiles/Zappy.dir/src/server/main.cc.o.d -o CMakeFiles/Zappy.dir/src/server/main.cc.o -c /home/antho/Documents/zappy/src/server/main.cc
 
-CMakeFiles/Zappy.dir/server/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/server/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/server/main.cc > CMakeFiles/Zappy.dir/server/main.cc.i
+CMakeFiles/Zappy.dir/src/server/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/server/main.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/server/main.cc > CMakeFiles/Zappy.dir/src/server/main.cc.i
 
-CMakeFiles/Zappy.dir/server/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/server/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/server/main.cc -o CMakeFiles/Zappy.dir/server/main.cc.s
+CMakeFiles/Zappy.dir/src/server/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/server/main.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/server/main.cc -o CMakeFiles/Zappy.dir/src/server/main.cc.s
 
-CMakeFiles/Zappy.dir/server/server.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/server/server.cc.o: ../server/server.cc
-CMakeFiles/Zappy.dir/server/server.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zappy.dir/server/server.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/server/server.cc.o -MF CMakeFiles/Zappy.dir/server/server.cc.o.d -o CMakeFiles/Zappy.dir/server/server.cc.o -c /home/antho/Documents/Zappy/server/server.cc
+CMakeFiles/Zappy.dir/src/server/server.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/server/server.cc.o: ../src/server/server.cc
+CMakeFiles/Zappy.dir/src/server/server.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zappy.dir/src/server/server.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/server/server.cc.o -MF CMakeFiles/Zappy.dir/src/server/server.cc.o.d -o CMakeFiles/Zappy.dir/src/server/server.cc.o -c /home/antho/Documents/zappy/src/server/server.cc
 
-CMakeFiles/Zappy.dir/server/server.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/server/server.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/server/server.cc > CMakeFiles/Zappy.dir/server/server.cc.i
+CMakeFiles/Zappy.dir/src/server/server.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/server/server.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/server/server.cc > CMakeFiles/Zappy.dir/src/server/server.cc.i
 
-CMakeFiles/Zappy.dir/server/server.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/server/server.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/server/server.cc -o CMakeFiles/Zappy.dir/server/server.cc.s
+CMakeFiles/Zappy.dir/src/server/server.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/server/server.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/server/server.cc -o CMakeFiles/Zappy.dir/src/server/server.cc.s
 
-CMakeFiles/Zappy.dir/game_controller.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/game_controller.cc.o: ../game_controller.cc
-CMakeFiles/Zappy.dir/game_controller.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Zappy.dir/game_controller.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/game_controller.cc.o -MF CMakeFiles/Zappy.dir/game_controller.cc.o.d -o CMakeFiles/Zappy.dir/game_controller.cc.o -c /home/antho/Documents/Zappy/game_controller.cc
+CMakeFiles/Zappy.dir/src/game_controller.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/game_controller.cc.o: ../src/game_controller.cc
+CMakeFiles/Zappy.dir/src/game_controller.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Zappy.dir/src/game_controller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/game_controller.cc.o -MF CMakeFiles/Zappy.dir/src/game_controller.cc.o.d -o CMakeFiles/Zappy.dir/src/game_controller.cc.o -c /home/antho/Documents/zappy/src/game_controller.cc
 
-CMakeFiles/Zappy.dir/game_controller.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/game_controller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/game_controller.cc > CMakeFiles/Zappy.dir/game_controller.cc.i
+CMakeFiles/Zappy.dir/src/game_controller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/game_controller.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/game_controller.cc > CMakeFiles/Zappy.dir/src/game_controller.cc.i
 
-CMakeFiles/Zappy.dir/game_controller.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/game_controller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/game_controller.cc -o CMakeFiles/Zappy.dir/game_controller.cc.s
+CMakeFiles/Zappy.dir/src/game_controller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/game_controller.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/game_controller.cc -o CMakeFiles/Zappy.dir/src/game_controller.cc.s
 
-CMakeFiles/Zappy.dir/game_model.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/game_model.cc.o: ../game_model.cc
-CMakeFiles/Zappy.dir/game_model.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Zappy.dir/game_model.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/game_model.cc.o -MF CMakeFiles/Zappy.dir/game_model.cc.o.d -o CMakeFiles/Zappy.dir/game_model.cc.o -c /home/antho/Documents/Zappy/game_model.cc
+CMakeFiles/Zappy.dir/src/game_model.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/game_model.cc.o: ../src/game_model.cc
+CMakeFiles/Zappy.dir/src/game_model.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Zappy.dir/src/game_model.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/game_model.cc.o -MF CMakeFiles/Zappy.dir/src/game_model.cc.o.d -o CMakeFiles/Zappy.dir/src/game_model.cc.o -c /home/antho/Documents/zappy/src/game_model.cc
 
-CMakeFiles/Zappy.dir/game_model.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/game_model.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/game_model.cc > CMakeFiles/Zappy.dir/game_model.cc.i
+CMakeFiles/Zappy.dir/src/game_model.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/game_model.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/game_model.cc > CMakeFiles/Zappy.dir/src/game_model.cc.i
 
-CMakeFiles/Zappy.dir/game_model.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/game_model.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/game_model.cc -o CMakeFiles/Zappy.dir/game_model.cc.s
+CMakeFiles/Zappy.dir/src/game_model.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/game_model.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/game_model.cc -o CMakeFiles/Zappy.dir/src/game_model.cc.s
 
-CMakeFiles/Zappy.dir/game_view.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/game_view.cc.o: ../game_view.cc
-CMakeFiles/Zappy.dir/game_view.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Zappy.dir/game_view.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/game_view.cc.o -MF CMakeFiles/Zappy.dir/game_view.cc.o.d -o CMakeFiles/Zappy.dir/game_view.cc.o -c /home/antho/Documents/Zappy/game_view.cc
+CMakeFiles/Zappy.dir/src/game_view.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/game_view.cc.o: ../src/game_view.cc
+CMakeFiles/Zappy.dir/src/game_view.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Zappy.dir/src/game_view.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/game_view.cc.o -MF CMakeFiles/Zappy.dir/src/game_view.cc.o.d -o CMakeFiles/Zappy.dir/src/game_view.cc.o -c /home/antho/Documents/zappy/src/game_view.cc
 
-CMakeFiles/Zappy.dir/game_view.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/game_view.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/game_view.cc > CMakeFiles/Zappy.dir/game_view.cc.i
+CMakeFiles/Zappy.dir/src/game_view.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/game_view.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/game_view.cc > CMakeFiles/Zappy.dir/src/game_view.cc.i
 
-CMakeFiles/Zappy.dir/game_view.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/game_view.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/game_view.cc -o CMakeFiles/Zappy.dir/game_view.cc.s
+CMakeFiles/Zappy.dir/src/game_view.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/game_view.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/game_view.cc -o CMakeFiles/Zappy.dir/src/game_view.cc.s
 
-CMakeFiles/Zappy.dir/gem.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/gem.cc.o: ../gem.cc
-CMakeFiles/Zappy.dir/gem.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Zappy.dir/gem.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/gem.cc.o -MF CMakeFiles/Zappy.dir/gem.cc.o.d -o CMakeFiles/Zappy.dir/gem.cc.o -c /home/antho/Documents/Zappy/gem.cc
+CMakeFiles/Zappy.dir/src/gem.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/gem.cc.o: ../src/gem.cc
+CMakeFiles/Zappy.dir/src/gem.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Zappy.dir/src/gem.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/gem.cc.o -MF CMakeFiles/Zappy.dir/src/gem.cc.o.d -o CMakeFiles/Zappy.dir/src/gem.cc.o -c /home/antho/Documents/zappy/src/gem.cc
 
-CMakeFiles/Zappy.dir/gem.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/gem.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/gem.cc > CMakeFiles/Zappy.dir/gem.cc.i
+CMakeFiles/Zappy.dir/src/gem.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/gem.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/gem.cc > CMakeFiles/Zappy.dir/src/gem.cc.i
 
-CMakeFiles/Zappy.dir/gem.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/gem.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/gem.cc -o CMakeFiles/Zappy.dir/gem.cc.s
+CMakeFiles/Zappy.dir/src/gem.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/gem.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/gem.cc -o CMakeFiles/Zappy.dir/src/gem.cc.s
 
-CMakeFiles/Zappy.dir/map.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/map.cc.o: ../map.cc
-CMakeFiles/Zappy.dir/map.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Zappy.dir/map.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/map.cc.o -MF CMakeFiles/Zappy.dir/map.cc.o.d -o CMakeFiles/Zappy.dir/map.cc.o -c /home/antho/Documents/Zappy/map.cc
+CMakeFiles/Zappy.dir/src/map.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/map.cc.o: ../src/map.cc
+CMakeFiles/Zappy.dir/src/map.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Zappy.dir/src/map.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/map.cc.o -MF CMakeFiles/Zappy.dir/src/map.cc.o.d -o CMakeFiles/Zappy.dir/src/map.cc.o -c /home/antho/Documents/zappy/src/map.cc
 
-CMakeFiles/Zappy.dir/map.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/map.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/map.cc > CMakeFiles/Zappy.dir/map.cc.i
+CMakeFiles/Zappy.dir/src/map.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/map.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/map.cc > CMakeFiles/Zappy.dir/src/map.cc.i
 
-CMakeFiles/Zappy.dir/map.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/map.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/map.cc -o CMakeFiles/Zappy.dir/map.cc.s
+CMakeFiles/Zappy.dir/src/map.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/map.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/map.cc -o CMakeFiles/Zappy.dir/src/map.cc.s
 
-CMakeFiles/Zappy.dir/player.cc.o: CMakeFiles/Zappy.dir/flags.make
-CMakeFiles/Zappy.dir/player.cc.o: ../player.cc
-CMakeFiles/Zappy.dir/player.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Zappy.dir/player.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/player.cc.o -MF CMakeFiles/Zappy.dir/player.cc.o.d -o CMakeFiles/Zappy.dir/player.cc.o -c /home/antho/Documents/Zappy/player.cc
+CMakeFiles/Zappy.dir/src/player.cc.o: CMakeFiles/Zappy.dir/flags.make
+CMakeFiles/Zappy.dir/src/player.cc.o: ../src/player.cc
+CMakeFiles/Zappy.dir/src/player.cc.o: CMakeFiles/Zappy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Zappy.dir/src/player.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zappy.dir/src/player.cc.o -MF CMakeFiles/Zappy.dir/src/player.cc.o.d -o CMakeFiles/Zappy.dir/src/player.cc.o -c /home/antho/Documents/zappy/src/player.cc
 
-CMakeFiles/Zappy.dir/player.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/player.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/player.cc > CMakeFiles/Zappy.dir/player.cc.i
+CMakeFiles/Zappy.dir/src/player.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zappy.dir/src/player.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/player.cc > CMakeFiles/Zappy.dir/src/player.cc.i
 
-CMakeFiles/Zappy.dir/player.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/player.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/player.cc -o CMakeFiles/Zappy.dir/player.cc.s
+CMakeFiles/Zappy.dir/src/player.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zappy.dir/src/player.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/player.cc -o CMakeFiles/Zappy.dir/src/player.cc.s
 
 # Object files for target Zappy
 Zappy_OBJECTS = \
-"CMakeFiles/Zappy.dir/server/main.cc.o" \
-"CMakeFiles/Zappy.dir/server/server.cc.o" \
-"CMakeFiles/Zappy.dir/game_controller.cc.o" \
-"CMakeFiles/Zappy.dir/game_model.cc.o" \
-"CMakeFiles/Zappy.dir/game_view.cc.o" \
-"CMakeFiles/Zappy.dir/gem.cc.o" \
-"CMakeFiles/Zappy.dir/map.cc.o" \
-"CMakeFiles/Zappy.dir/player.cc.o"
+"CMakeFiles/Zappy.dir/src/server/main.cc.o" \
+"CMakeFiles/Zappy.dir/src/server/server.cc.o" \
+"CMakeFiles/Zappy.dir/src/game_controller.cc.o" \
+"CMakeFiles/Zappy.dir/src/game_model.cc.o" \
+"CMakeFiles/Zappy.dir/src/game_view.cc.o" \
+"CMakeFiles/Zappy.dir/src/gem.cc.o" \
+"CMakeFiles/Zappy.dir/src/map.cc.o" \
+"CMakeFiles/Zappy.dir/src/player.cc.o"
 
 # External object files for target Zappy
 Zappy_EXTERNAL_OBJECTS =
 
-Zappy: CMakeFiles/Zappy.dir/server/main.cc.o
-Zappy: CMakeFiles/Zappy.dir/server/server.cc.o
-Zappy: CMakeFiles/Zappy.dir/game_controller.cc.o
-Zappy: CMakeFiles/Zappy.dir/game_model.cc.o
-Zappy: CMakeFiles/Zappy.dir/game_view.cc.o
-Zappy: CMakeFiles/Zappy.dir/gem.cc.o
-Zappy: CMakeFiles/Zappy.dir/map.cc.o
-Zappy: CMakeFiles/Zappy.dir/player.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/server/main.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/server/server.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/game_controller.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/game_model.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/game_view.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/gem.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/map.cc.o
+Zappy: CMakeFiles/Zappy.dir/src/player.cc.o
 Zappy: CMakeFiles/Zappy.dir/build.make
 Zappy: CMakeFiles/Zappy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Zappy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Zappy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Zappy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/Zappy.dir/clean:
 .PHONY : CMakeFiles/Zappy.dir/clean
 
 CMakeFiles/Zappy.dir/depend:
-	cd /home/antho/Documents/Zappy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antho/Documents/Zappy /home/antho/Documents/Zappy /home/antho/Documents/Zappy/build /home/antho/Documents/Zappy/build /home/antho/Documents/Zappy/build/CMakeFiles/Zappy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antho/Documents/zappy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antho/Documents/zappy /home/antho/Documents/zappy /home/antho/Documents/zappy/build /home/antho/Documents/zappy/build /home/antho/Documents/zappy/build/CMakeFiles/Zappy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Zappy.dir/depend
 

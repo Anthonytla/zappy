@@ -1,9 +1,9 @@
 #include <thread>
 #include <SFML/Window/Event.hpp>
-#include "../game_model.hh"
-#include "../game_view.hh"
-#include "server.hh"
-#include "../game_controller.hh"
+#include "../../includes/game_model.hh"
+#include "../../includes/game_view.hh"
+#include "../../includes/server.hh"
+#include "../../includes/game_controller.hh"
 
 
 int main(int argc, char *argv[]) {

@@ -1,5 +1,5 @@
-#include "game_view.hh"
-#include "player.hh"
+#include "../includes/game_view.hh"
+#include "../includes/player.hh"
 #include <iostream>
 
 sf::RenderWindow& View::getWindow() {

@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -Wextra -Werror -g -pedantic -g CMakeFiles/client.dir/client/main.cc.o CMakeFiles/client.dir/client/client.cc.o CMakeFiles/client.dir/DecisionTree.cpp.o CMakeFiles/client.dir/Node.cpp.o -o client  -lsfml-network -lsfml-system 
+/usr/bin/c++  -Wall -Wextra -Werror -g -pedantic CMakeFiles/client.dir/src/client/main.cc.o CMakeFiles/client.dir/src/client/client.cc.o CMakeFiles/client.dir/src/DecisionTree.cpp.o CMakeFiles/client.dir/src/Node.cpp.o -o client  -lsfml-network -lsfml-system 

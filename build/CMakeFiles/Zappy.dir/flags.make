@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/antho/Documents/Zappy/. -I/home/antho/Documents/Zappy/client -I/home/antho/Documents/Zappy/server
+CXX_INCLUDES = -I/home/antho/Documents/zappy/. -I/home/antho/Documents/zappy/client -I/home/antho/Documents/zappy/server
 
-CXX_FLAGS =  -Wall -Wextra -Werror -g -pedantic -g -std=gnu++14
+CXX_FLAGS =  -Wall -Wextra -Werror -g -pedantic -std=gnu++14
 

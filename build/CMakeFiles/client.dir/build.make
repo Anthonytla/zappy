@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antho/Documents/Zappy
+CMAKE_SOURCE_DIR = /home/antho/Documents/zappy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antho/Documents/Zappy/build
+CMAKE_BINARY_DIR = /home/antho/Documents/zappy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -69,79 +69,79 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/client/main.cc.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client/main.cc.o: ../client/main.cc
-CMakeFiles/client.dir/client/main.cc.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client/main.cc.o -MF CMakeFiles/client.dir/client/main.cc.o.d -o CMakeFiles/client.dir/client/main.cc.o -c /home/antho/Documents/Zappy/client/main.cc
+CMakeFiles/client.dir/src/client/main.cc.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/client/main.cc.o: ../src/client/main.cc
+CMakeFiles/client.dir/src/client/main.cc.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/src/client/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/src/client/main.cc.o -MF CMakeFiles/client.dir/src/client/main.cc.o.d -o CMakeFiles/client.dir/src/client/main.cc.o -c /home/antho/Documents/zappy/src/client/main.cc
 
-CMakeFiles/client.dir/client/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/client/main.cc > CMakeFiles/client.dir/client/main.cc.i
+CMakeFiles/client.dir/src/client/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/client/main.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/client/main.cc > CMakeFiles/client.dir/src/client/main.cc.i
 
-CMakeFiles/client.dir/client/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/client/main.cc -o CMakeFiles/client.dir/client/main.cc.s
+CMakeFiles/client.dir/src/client/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/client/main.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/client/main.cc -o CMakeFiles/client.dir/src/client/main.cc.s
 
-CMakeFiles/client.dir/client/client.cc.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client/client.cc.o: ../client/client.cc
-CMakeFiles/client.dir/client/client.cc.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/client/client.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client/client.cc.o -MF CMakeFiles/client.dir/client/client.cc.o.d -o CMakeFiles/client.dir/client/client.cc.o -c /home/antho/Documents/Zappy/client/client.cc
+CMakeFiles/client.dir/src/client/client.cc.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/client/client.cc.o: ../src/client/client.cc
+CMakeFiles/client.dir/src/client/client.cc.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/src/client/client.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/src/client/client.cc.o -MF CMakeFiles/client.dir/src/client/client.cc.o.d -o CMakeFiles/client.dir/src/client/client.cc.o -c /home/antho/Documents/zappy/src/client/client.cc
 
-CMakeFiles/client.dir/client/client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client/client.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/client/client.cc > CMakeFiles/client.dir/client/client.cc.i
+CMakeFiles/client.dir/src/client/client.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/client/client.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/client/client.cc > CMakeFiles/client.dir/src/client/client.cc.i
 
-CMakeFiles/client.dir/client/client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/client.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/client/client.cc -o CMakeFiles/client.dir/client/client.cc.s
+CMakeFiles/client.dir/src/client/client.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/client/client.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/client/client.cc -o CMakeFiles/client.dir/src/client/client.cc.s
 
-CMakeFiles/client.dir/DecisionTree.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/DecisionTree.cpp.o: ../DecisionTree.cpp
-CMakeFiles/client.dir/DecisionTree.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/DecisionTree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/DecisionTree.cpp.o -MF CMakeFiles/client.dir/DecisionTree.cpp.o.d -o CMakeFiles/client.dir/DecisionTree.cpp.o -c /home/antho/Documents/Zappy/DecisionTree.cpp
+CMakeFiles/client.dir/src/DecisionTree.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/DecisionTree.cpp.o: ../src/DecisionTree.cpp
+CMakeFiles/client.dir/src/DecisionTree.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/src/DecisionTree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/src/DecisionTree.cpp.o -MF CMakeFiles/client.dir/src/DecisionTree.cpp.o.d -o CMakeFiles/client.dir/src/DecisionTree.cpp.o -c /home/antho/Documents/zappy/src/DecisionTree.cpp
 
-CMakeFiles/client.dir/DecisionTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/DecisionTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/DecisionTree.cpp > CMakeFiles/client.dir/DecisionTree.cpp.i
+CMakeFiles/client.dir/src/DecisionTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/DecisionTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/DecisionTree.cpp > CMakeFiles/client.dir/src/DecisionTree.cpp.i
 
-CMakeFiles/client.dir/DecisionTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/DecisionTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/DecisionTree.cpp -o CMakeFiles/client.dir/DecisionTree.cpp.s
+CMakeFiles/client.dir/src/DecisionTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/DecisionTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/DecisionTree.cpp -o CMakeFiles/client.dir/src/DecisionTree.cpp.s
 
-CMakeFiles/client.dir/Node.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/Node.cpp.o: ../Node.cpp
-CMakeFiles/client.dir/Node.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/Node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/Node.cpp.o -MF CMakeFiles/client.dir/Node.cpp.o.d -o CMakeFiles/client.dir/Node.cpp.o -c /home/antho/Documents/Zappy/Node.cpp
+CMakeFiles/client.dir/src/Node.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/Node.cpp.o: ../src/Node.cpp
+CMakeFiles/client.dir/src/Node.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/src/Node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/src/Node.cpp.o -MF CMakeFiles/client.dir/src/Node.cpp.o.d -o CMakeFiles/client.dir/src/Node.cpp.o -c /home/antho/Documents/zappy/src/Node.cpp
 
-CMakeFiles/client.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/Zappy/Node.cpp > CMakeFiles/client.dir/Node.cpp.i
+CMakeFiles/client.dir/src/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antho/Documents/zappy/src/Node.cpp > CMakeFiles/client.dir/src/Node.cpp.i
 
-CMakeFiles/client.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/Zappy/Node.cpp -o CMakeFiles/client.dir/Node.cpp.s
+CMakeFiles/client.dir/src/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antho/Documents/zappy/src/Node.cpp -o CMakeFiles/client.dir/src/Node.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/client/main.cc.o" \
-"CMakeFiles/client.dir/client/client.cc.o" \
-"CMakeFiles/client.dir/DecisionTree.cpp.o" \
-"CMakeFiles/client.dir/Node.cpp.o"
+"CMakeFiles/client.dir/src/client/main.cc.o" \
+"CMakeFiles/client.dir/src/client/client.cc.o" \
+"CMakeFiles/client.dir/src/DecisionTree.cpp.o" \
+"CMakeFiles/client.dir/src/Node.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/client/main.cc.o
-client: CMakeFiles/client.dir/client/client.cc.o
-client: CMakeFiles/client.dir/DecisionTree.cpp.o
-client: CMakeFiles/client.dir/Node.cpp.o
+client: CMakeFiles/client.dir/src/client/main.cc.o
+client: CMakeFiles/client.dir/src/client/client.cc.o
+client: CMakeFiles/client.dir/src/DecisionTree.cpp.o
+client: CMakeFiles/client.dir/src/Node.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antho/Documents/Zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antho/Documents/zappy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/antho/Documents/Zappy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antho/Documents/Zappy /home/antho/Documents/Zappy /home/antho/Documents/Zappy/build /home/antho/Documents/Zappy/build /home/antho/Documents/Zappy/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antho/Documents/zappy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antho/Documents/zappy /home/antho/Documents/zappy /home/antho/Documents/zappy/build /home/antho/Documents/zappy/build /home/antho/Documents/zappy/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

@@ -1,4 +1,4 @@
-#include "gem.hh"
+#include "../includes/gem.hh"
 
 char GemStone::getName()
 {

@@ -1,4 +1,4 @@
-#include "game_model.hh"
+#include "../includes/game_model.hh"
 #include <string>
 #include <nlohmann/json.hpp>
 

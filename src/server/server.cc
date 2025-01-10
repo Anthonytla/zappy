@@ -1,5 +1,5 @@
-#include "server.hh"
-#include "../game_controller.hh"
+#include "../../includes/server.hh"
+#include "../../includes/game_controller.hh"
 #include <iostream>
 #include <memory>
 #include <thread>

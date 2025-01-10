@@ -1,4 +1,4 @@
-#include "player.hh"
+#include "../includes/player.hh"
 #include <string>
 
 Player::Player(int x, int y, short int id, short int victory, std::string orientation, short int life, short int energy, short int color)

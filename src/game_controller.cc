@@ -1,4 +1,4 @@
-#include "game_controller.hh"
+#include "../includes/game_controller.hh"
 #include <SFML/Network.hpp>
 #include <string>
 #include <nlohmann/json.hpp>

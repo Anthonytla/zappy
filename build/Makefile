@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antho/Documents/Zappy
+CMAKE_SOURCE_DIR = /home/antho/Documents/zappy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antho/Documents/Zappy/build
+CMAKE_BINARY_DIR = /home/antho/Documents/zappy/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antho/Documents/Zappy/build/CMakeFiles /home/antho/Documents/Zappy/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antho/Documents/zappy/build/CMakeFiles /home/antho/Documents/zappy/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antho/Documents/Zappy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antho/Documents/zappy/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,293 +142,293 @@ client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-DecisionTree.o: DecisionTree.cpp.o
-.PHONY : DecisionTree.o
+src/DecisionTree.o: src/DecisionTree.cpp.o
+.PHONY : src/DecisionTree.o
 
 # target to build an object file
-DecisionTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/DecisionTree.cpp.o
-.PHONY : DecisionTree.cpp.o
+src/DecisionTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/DecisionTree.cpp.o
+.PHONY : src/DecisionTree.cpp.o
 
-DecisionTree.i: DecisionTree.cpp.i
-.PHONY : DecisionTree.i
+src/DecisionTree.i: src/DecisionTree.cpp.i
+.PHONY : src/DecisionTree.i
 
 # target to preprocess a source file
-DecisionTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/DecisionTree.cpp.i
-.PHONY : DecisionTree.cpp.i
+src/DecisionTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/DecisionTree.cpp.i
+.PHONY : src/DecisionTree.cpp.i
 
-DecisionTree.s: DecisionTree.cpp.s
-.PHONY : DecisionTree.s
+src/DecisionTree.s: src/DecisionTree.cpp.s
+.PHONY : src/DecisionTree.s
 
 # target to generate assembly for a file
-DecisionTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/DecisionTree.cpp.s
-.PHONY : DecisionTree.cpp.s
+src/DecisionTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/DecisionTree.cpp.s
+.PHONY : src/DecisionTree.cpp.s
 
-Node.o: Node.cpp.o
-.PHONY : Node.o
+src/Node.o: src/Node.cpp.o
+.PHONY : src/Node.o
 
 # target to build an object file
-Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Node.cpp.o
-.PHONY : Node.cpp.o
+src/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Node.cpp.o
+.PHONY : src/Node.cpp.o
 
-Node.i: Node.cpp.i
-.PHONY : Node.i
+src/Node.i: src/Node.cpp.i
+.PHONY : src/Node.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+src/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Node.cpp.i
+.PHONY : src/Node.cpp.i
 
-Node.s: Node.cpp.s
-.PHONY : Node.s
+src/Node.s: src/Node.cpp.s
+.PHONY : src/Node.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+src/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Node.cpp.s
+.PHONY : src/Node.cpp.s
 
-client/client.o: client/client.cc.o
-.PHONY : client/client.o
+src/client/client.o: src/client/client.cc.o
+.PHONY : src/client/client.o
 
 # target to build an object file
-client/client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cc.o
-.PHONY : client/client.cc.o
+src/client/client.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/client.cc.o
+.PHONY : src/client/client.cc.o
 
-client/client.i: client/client.cc.i
-.PHONY : client/client.i
+src/client/client.i: src/client/client.cc.i
+.PHONY : src/client/client.i
 
 # target to preprocess a source file
-client/client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cc.i
-.PHONY : client/client.cc.i
+src/client/client.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/client.cc.i
+.PHONY : src/client/client.cc.i
 
-client/client.s: client/client.cc.s
-.PHONY : client/client.s
+src/client/client.s: src/client/client.cc.s
+.PHONY : src/client/client.s
 
 # target to generate assembly for a file
-client/client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cc.s
-.PHONY : client/client.cc.s
+src/client/client.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/client.cc.s
+.PHONY : src/client/client.cc.s
 
-client/main.o: client/main.cc.o
-.PHONY : client/main.o
+src/client/main.o: src/client/main.cc.o
+.PHONY : src/client/main.o
 
 # target to build an object file
-client/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cc.o
-.PHONY : client/main.cc.o
+src/client/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/main.cc.o
+.PHONY : src/client/main.cc.o
 
-client/main.i: client/main.cc.i
-.PHONY : client/main.i
+src/client/main.i: src/client/main.cc.i
+.PHONY : src/client/main.i
 
 # target to preprocess a source file
-client/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cc.i
-.PHONY : client/main.cc.i
+src/client/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/main.cc.i
+.PHONY : src/client/main.cc.i
 
-client/main.s: client/main.cc.s
-.PHONY : client/main.s
+src/client/main.s: src/client/main.cc.s
+.PHONY : src/client/main.s
 
 # target to generate assembly for a file
-client/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cc.s
-.PHONY : client/main.cc.s
+src/client/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/main.cc.s
+.PHONY : src/client/main.cc.s
 
-game_controller.o: game_controller.cc.o
-.PHONY : game_controller.o
+src/game_controller.o: src/game_controller.cc.o
+.PHONY : src/game_controller.o
 
 # target to build an object file
-game_controller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_controller.cc.o
-.PHONY : game_controller.cc.o
+src/game_controller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_controller.cc.o
+.PHONY : src/game_controller.cc.o
 
-game_controller.i: game_controller.cc.i
-.PHONY : game_controller.i
+src/game_controller.i: src/game_controller.cc.i
+.PHONY : src/game_controller.i
 
 # target to preprocess a source file
-game_controller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_controller.cc.i
-.PHONY : game_controller.cc.i
+src/game_controller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_controller.cc.i
+.PHONY : src/game_controller.cc.i
 
-game_controller.s: game_controller.cc.s
-.PHONY : game_controller.s
+src/game_controller.s: src/game_controller.cc.s
+.PHONY : src/game_controller.s
 
 # target to generate assembly for a file
-game_controller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_controller.cc.s
-.PHONY : game_controller.cc.s
+src/game_controller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_controller.cc.s
+.PHONY : src/game_controller.cc.s
 
-game_model.o: game_model.cc.o
-.PHONY : game_model.o
+src/game_model.o: src/game_model.cc.o
+.PHONY : src/game_model.o
 
 # target to build an object file
-game_model.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_model.cc.o
-.PHONY : game_model.cc.o
+src/game_model.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_model.cc.o
+.PHONY : src/game_model.cc.o
 
-game_model.i: game_model.cc.i
-.PHONY : game_model.i
+src/game_model.i: src/game_model.cc.i
+.PHONY : src/game_model.i
 
 # target to preprocess a source file
-game_model.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_model.cc.i
-.PHONY : game_model.cc.i
+src/game_model.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_model.cc.i
+.PHONY : src/game_model.cc.i
 
-game_model.s: game_model.cc.s
-.PHONY : game_model.s
+src/game_model.s: src/game_model.cc.s
+.PHONY : src/game_model.s
 
 # target to generate assembly for a file
-game_model.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_model.cc.s
-.PHONY : game_model.cc.s
+src/game_model.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_model.cc.s
+.PHONY : src/game_model.cc.s
 
-game_view.o: game_view.cc.o
-.PHONY : game_view.o
+src/game_view.o: src/game_view.cc.o
+.PHONY : src/game_view.o
 
 # target to build an object file
-game_view.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_view.cc.o
-.PHONY : game_view.cc.o
+src/game_view.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_view.cc.o
+.PHONY : src/game_view.cc.o
 
-game_view.i: game_view.cc.i
-.PHONY : game_view.i
+src/game_view.i: src/game_view.cc.i
+.PHONY : src/game_view.i
 
 # target to preprocess a source file
-game_view.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_view.cc.i
-.PHONY : game_view.cc.i
+src/game_view.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_view.cc.i
+.PHONY : src/game_view.cc.i
 
-game_view.s: game_view.cc.s
-.PHONY : game_view.s
+src/game_view.s: src/game_view.cc.s
+.PHONY : src/game_view.s
 
 # target to generate assembly for a file
-game_view.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/game_view.cc.s
-.PHONY : game_view.cc.s
+src/game_view.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/game_view.cc.s
+.PHONY : src/game_view.cc.s
 
-gem.o: gem.cc.o
-.PHONY : gem.o
+src/gem.o: src/gem.cc.o
+.PHONY : src/gem.o
 
 # target to build an object file
-gem.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/gem.cc.o
-.PHONY : gem.cc.o
+src/gem.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/gem.cc.o
+.PHONY : src/gem.cc.o
 
-gem.i: gem.cc.i
-.PHONY : gem.i
+src/gem.i: src/gem.cc.i
+.PHONY : src/gem.i
 
 # target to preprocess a source file
-gem.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/gem.cc.i
-.PHONY : gem.cc.i
+src/gem.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/gem.cc.i
+.PHONY : src/gem.cc.i
 
-gem.s: gem.cc.s
-.PHONY : gem.s
+src/gem.s: src/gem.cc.s
+.PHONY : src/gem.s
 
 # target to generate assembly for a file
-gem.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/gem.cc.s
-.PHONY : gem.cc.s
+src/gem.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/gem.cc.s
+.PHONY : src/gem.cc.s
 
-map.o: map.cc.o
-.PHONY : map.o
+src/map.o: src/map.cc.o
+.PHONY : src/map.o
 
 # target to build an object file
-map.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/map.cc.o
-.PHONY : map.cc.o
+src/map.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/map.cc.o
+.PHONY : src/map.cc.o
 
-map.i: map.cc.i
-.PHONY : map.i
+src/map.i: src/map.cc.i
+.PHONY : src/map.i
 
 # target to preprocess a source file
-map.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/map.cc.i
-.PHONY : map.cc.i
+src/map.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/map.cc.i
+.PHONY : src/map.cc.i
 
-map.s: map.cc.s
-.PHONY : map.s
+src/map.s: src/map.cc.s
+.PHONY : src/map.s
 
 # target to generate assembly for a file
-map.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/map.cc.s
-.PHONY : map.cc.s
+src/map.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/map.cc.s
+.PHONY : src/map.cc.s
 
-player.o: player.cc.o
-.PHONY : player.o
+src/player.o: src/player.cc.o
+.PHONY : src/player.o
 
 # target to build an object file
-player.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/player.cc.o
-.PHONY : player.cc.o
+src/player.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/player.cc.o
+.PHONY : src/player.cc.o
 
-player.i: player.cc.i
-.PHONY : player.i
+src/player.i: src/player.cc.i
+.PHONY : src/player.i
 
 # target to preprocess a source file
-player.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/player.cc.i
-.PHONY : player.cc.i
+src/player.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/player.cc.i
+.PHONY : src/player.cc.i
 
-player.s: player.cc.s
-.PHONY : player.s
+src/player.s: src/player.cc.s
+.PHONY : src/player.s
 
 # target to generate assembly for a file
-player.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/player.cc.s
-.PHONY : player.cc.s
+src/player.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/player.cc.s
+.PHONY : src/player.cc.s
 
-server/main.o: server/main.cc.o
-.PHONY : server/main.o
+src/server/main.o: src/server/main.cc.o
+.PHONY : src/server/main.o
 
 # target to build an object file
-server/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/main.cc.o
-.PHONY : server/main.cc.o
+src/server/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/main.cc.o
+.PHONY : src/server/main.cc.o
 
-server/main.i: server/main.cc.i
-.PHONY : server/main.i
+src/server/main.i: src/server/main.cc.i
+.PHONY : src/server/main.i
 
 # target to preprocess a source file
-server/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/main.cc.i
-.PHONY : server/main.cc.i
+src/server/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/main.cc.i
+.PHONY : src/server/main.cc.i
 
-server/main.s: server/main.cc.s
-.PHONY : server/main.s
+src/server/main.s: src/server/main.cc.s
+.PHONY : src/server/main.s
 
 # target to generate assembly for a file
-server/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/main.cc.s
-.PHONY : server/main.cc.s
+src/server/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/main.cc.s
+.PHONY : src/server/main.cc.s
 
-server/server.o: server/server.cc.o
-.PHONY : server/server.o
+src/server/server.o: src/server/server.cc.o
+.PHONY : src/server/server.o
 
 # target to build an object file
-server/server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/server.cc.o
-.PHONY : server/server.cc.o
+src/server/server.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/server.cc.o
+.PHONY : src/server/server.cc.o
 
-server/server.i: server/server.cc.i
-.PHONY : server/server.i
+src/server/server.i: src/server/server.cc.i
+.PHONY : src/server/server.i
 
 # target to preprocess a source file
-server/server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/server.cc.i
-.PHONY : server/server.cc.i
+src/server/server.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/server.cc.i
+.PHONY : src/server/server.cc.i
 
-server/server.s: server/server.cc.s
-.PHONY : server/server.s
+src/server/server.s: src/server/server.cc.s
+.PHONY : src/server/server.s
 
 # target to generate assembly for a file
-server/server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/server/server.cc.s
-.PHONY : server/server.cc.s
+src/server/server.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zappy.dir/build.make CMakeFiles/Zappy.dir/src/server/server.cc.s
+.PHONY : src/server/server.cc.s
 
 # Help Target
 help:
@@ -440,42 +440,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Zappy"
 	@echo "... client"
-	@echo "... DecisionTree.o"
-	@echo "... DecisionTree.i"
-	@echo "... DecisionTree.s"
-	@echo "... Node.o"
-	@echo "... Node.i"
-	@echo "... Node.s"
-	@echo "... client/client.o"
-	@echo "... client/client.i"
-	@echo "... client/client.s"
-	@echo "... client/main.o"
-	@echo "... client/main.i"
-	@echo "... client/main.s"
-	@echo "... game_controller.o"
-	@echo "... game_controller.i"
-	@echo "... game_controller.s"
-	@echo "... game_model.o"
-	@echo "... game_model.i"
-	@echo "... game_model.s"
-	@echo "... game_view.o"
-	@echo "... game_view.i"
-	@echo "... game_view.s"
-	@echo "... gem.o"
-	@echo "... gem.i"
-	@echo "... gem.s"
-	@echo "... map.o"
-	@echo "... map.i"
-	@echo "... map.s"
-	@echo "... player.o"
-	@echo "... player.i"
-	@echo "... player.s"
-	@echo "... server/main.o"
-	@echo "... server/main.i"
-	@echo "... server/main.s"
-	@echo "... server/server.o"
-	@echo "... server/server.i"
-	@echo "... server/server.s"
+	@echo "... src/DecisionTree.o"
+	@echo "... src/DecisionTree.i"
+	@echo "... src/DecisionTree.s"
+	@echo "... src/Node.o"
+	@echo "... src/Node.i"
+	@echo "... src/Node.s"
+	@echo "... src/client/client.o"
+	@echo "... src/client/client.i"
+	@echo "... src/client/client.s"
+	@echo "... src/client/main.o"
+	@echo "... src/client/main.i"
+	@echo "... src/client/main.s"
+	@echo "... src/game_controller.o"
+	@echo "... src/game_controller.i"
+	@echo "... src/game_controller.s"
+	@echo "... src/game_model.o"
+	@echo "... src/game_model.i"
+	@echo "... src/game_model.s"
+	@echo "... src/game_view.o"
+	@echo "... src/game_view.i"
+	@echo "... src/game_view.s"
+	@echo "... src/gem.o"
+	@echo "... src/gem.i"
+	@echo "... src/gem.s"
+	@echo "... src/map.o"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
+	@echo "... src/player.o"
+	@echo "... src/player.i"
+	@echo "... src/player.s"
+	@echo "... src/server/main.o"
+	@echo "... src/server/main.i"
+	@echo "... src/server/main.s"
+	@echo "... src/server/server.o"
+	@echo "... src/server/server.i"
+	@echo "... src/server/server.s"
 .PHONY : help
 
 

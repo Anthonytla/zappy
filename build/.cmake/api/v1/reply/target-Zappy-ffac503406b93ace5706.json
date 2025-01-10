@@ -61,7 +61,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -Werror -g -pedantic -g"
+					"fragment" : " -Wall -Wextra -Werror -g -pedantic"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -71,15 +71,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/antho/Documents/Zappy/."
+					"path" : "/home/antho/Documents/zappy/."
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/antho/Documents/Zappy/client"
+					"path" : "/home/antho/Documents/zappy/client"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/antho/Documents/Zappy/server"
+					"path" : "/home/antho/Documents/zappy/server"
 				}
 			],
 			"language" : "CXX",
@@ -110,7 +110,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -Wextra -Werror -g -pedantic -g",
+				"fragment" : "-Wall -Wextra -Werror -g -pedantic",
 				"role" : "flags"
 			},
 			{
@@ -182,84 +182,84 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "server/main.cc",
+			"path" : "src/server/main.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "server/server.cc",
+			"path" : "src/server/server.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "server/server.hh",
+			"path" : "includes/server.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "game_controller.cc",
+			"path" : "src/game_controller.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "game_controller.hh",
+			"path" : "includes/game_controller.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "game_model.cc",
+			"path" : "src/game_model.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "game_model.hh",
+			"path" : "includes/game_model.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "game_view.cc",
+			"path" : "src/game_view.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "game_view.hh",
+			"path" : "includes/game_view.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "gem.cc",
+			"path" : "src/gem.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "gem.hh",
+			"path" : "includes/gem.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "map.cc",
+			"path" : "src/map.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "map.hh",
+			"path" : "includes/map.hh",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "player.cc",
+			"path" : "src/player.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "player.hh",
+			"path" : "includes/player.hh",
 			"sourceGroupIndex" : 1
 		}
 	],

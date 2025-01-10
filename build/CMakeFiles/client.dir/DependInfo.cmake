@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/antho/Documents/Zappy/DecisionTree.cpp" "CMakeFiles/client.dir/DecisionTree.cpp.o" "gcc" "CMakeFiles/client.dir/DecisionTree.cpp.o.d"
-  "/home/antho/Documents/Zappy/Node.cpp" "CMakeFiles/client.dir/Node.cpp.o" "gcc" "CMakeFiles/client.dir/Node.cpp.o.d"
-  "/home/antho/Documents/Zappy/client/client.cc" "CMakeFiles/client.dir/client/client.cc.o" "gcc" "CMakeFiles/client.dir/client/client.cc.o.d"
-  "/home/antho/Documents/Zappy/client/main.cc" "CMakeFiles/client.dir/client/main.cc.o" "gcc" "CMakeFiles/client.dir/client/main.cc.o.d"
+  "/home/antho/Documents/zappy/src/DecisionTree.cpp" "CMakeFiles/client.dir/src/DecisionTree.cpp.o" "gcc" "CMakeFiles/client.dir/src/DecisionTree.cpp.o.d"
+  "/home/antho/Documents/zappy/src/Node.cpp" "CMakeFiles/client.dir/src/Node.cpp.o" "gcc" "CMakeFiles/client.dir/src/Node.cpp.o.d"
+  "/home/antho/Documents/zappy/src/client/client.cc" "CMakeFiles/client.dir/src/client/client.cc.o" "gcc" "CMakeFiles/client.dir/src/client/client.cc.o.d"
+  "/home/antho/Documents/zappy/src/client/main.cc" "CMakeFiles/client.dir/src/client/main.cc.o" "gcc" "CMakeFiles/client.dir/src/client/main.cc.o.d"
   )
 
 # Targets to which this target links.

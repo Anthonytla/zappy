@@ -8,30 +8,30 @@ include_directories(client)
 include_directories(server)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror -g -pedantic")
 add_executable(Zappy
-    server/main.cc
-    server/server.cc
-    server/server.hh
-    game_controller.cc
-    game_controller.hh
-    game_model.cc
-    game_model.hh
-    game_view.cc
-    game_view.hh
-    gem.cc
-    gem.hh
-    map.cc
-    map.hh
-    player.cc
-    player.hh)
+    src/server/main.cc
+    src/server/server.cc
+    includes/server.hh
+    src/game_controller.cc
+    includes/game_controller.hh
+    src/game_model.cc
+    includes/game_model.hh
+    src/game_view.cc
+    includes/game_view.hh
+    src/gem.cc
+    includes/gem.hh
+    src/map.cc
+    includes/map.hh
+    src/player.cc
+    includes/player.hh)
 target_link_libraries(Zappy PRIVATE sfml-network sfml-system sfml-graphics sfml-window)
 
 add_executable(client
-    client/main.cc
-    client/client.hh
-    client/client.cc
-        DecisionTree.cpp
-        DecisionTree.h
-        Node.cpp
-        Node.h
+    src/client/main.cc
+    includes/client.hh
+    src/client/client.cc
+    src/DecisionTree.cpp
+    includes/DecisionTree.h
+    src/Node.cpp
+    includes/Node.h
 )
 target_link_libraries(client PRIVATE sfml-network sfml-system)

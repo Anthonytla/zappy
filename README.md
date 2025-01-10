@@ -20,23 +20,16 @@ chmod +x install.sh
 Command to launch the server from the 'server' folder:
 ```bash
 make
-server --host <host ip> --port <port number> --map-height <height of the map> --map-width <width of the map> --players <number of players> --cycle <>
+server  <port number>
 ```
 
 Default values:
-- Host: localhost
-- Port: 4242
-- Map height: 7
-- Map width: 4
-- Number of players: 4
-- Cycle: 500
+
 
 Command to launch the client from the 'client' folder:
 ```bash
 make
-client --host <host ip> --port <port number>
+client <port number>
 ```
 Default values:
-- Host: localhost
-- Port: 4242
 
