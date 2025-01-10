@@ -17,10 +17,12 @@ Install the dependencies by executing
 chmod +x install.sh
 ./install.sh
 ```
+
+```bash
 cd build
 cmake ..
 make
-
+```
 Command to launch the server:
 ```bash
 
