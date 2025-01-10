@@ -17,19 +17,22 @@ Install the dependencies by executing
 chmod +x install.sh
 ./install.sh
 ```
-Command to launch the server from the 'server' folder:
-```bash
+cd build
+cmake ..
 make
-server  <port number>
+
+Command to launch the server:
+```bash
+
+./Zappy  <port number>
 ```
 
 Default values:
 
 
-Command to launch the client from the 'client' folder:
+Command to launch the client:
 ```bash
-make
-client <port number>
+./client <port number>
 ```
 Default values:
 
